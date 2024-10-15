@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poppins:wght@500&family=Ruda:wght@400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Amatic+SC",sans-serif;
+}
+
+.nav1{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 img{
+    max-width: 240px;
+}
+
+.nav1 a{
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #232422;
+}
+
+.nav1 a:hover{
+    color: #505050;
+}
+
+.nav1 i{
+    color: #232422;
+    transition: all 0.3s ease 0s;
+}
+
+.nav1 i:hover{
+    color: #505050;
+}
+
+.amanj{
+    height: 35rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0 60px;  
+    display: flex; 
+}
+
+img{
+    max-width: 500px;
+}
+
+.amanj .amanj1 .amanj2 h1{
+    font-size: 50px;
+}
+.amanj .amanj1 .amanj2 p{
+    color: #505050;
+}
+
+.btn1{
+    border: none;
+    border: 1px solid black;
+    background: white;
+    color: #232422;
+    width: 10rem;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    padding: 5px;
+}
+
+.btn1:hover{
+    background: #4E31AA;
+    border: none;
+    color: white;
+}
+
+.h1{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: #505050;
+}
+
+.card{
+    transition: all 0.3s ease 0s;
+    justify-content: center;
+    margin: 45px;
+}
+.card img{
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.card-body h5{
+    text-align: center;
+}
+
+.card-body p{
+    text-align: center;
+}
+
+.btn2{
+    border: none;
+    background: white;
+    border: 1px solid black;
+    width: 14rem;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.btn2:hover{
+background: #4E31AA;
+color: white;
+border: none;
+}
+
+.card:hover{
+transform: scale(0.95);
+}
+
+.abbas{
+    margin-top: 10px;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abbas .abbas1 .abbas2 h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.abbas .abbas1 .abbas2 p{
+    text-align: center;
+    color: #505050;
+}
+.btn1{
+    margin: 20px;
+}
+
+footer{
+    margin-top: 5rem;
+    background: #232422;
+    padding: 35px;
+    border-radius: 24px 24px 0 0;
+    color: #f1f1f1;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #505050;
+    margin: 25px;
+    transition: all 0.3s ease 0s;
+}
+footer a:hover{
+color: white;
+}
